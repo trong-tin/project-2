@@ -1,0 +1,97 @@
+.header {
+    background: none;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.header .container {
+    background: none;
+}
+
+.header .container .row {
+    background: none;
+    justify-content: space-around;
+}
+
+.header .container .row .softy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 40px;
+    box-shadow: 0 0 3px 1px rgb(0 0 0 / 10%);
+}
+
+.header .container .row .inner-menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+}
+.header .container .row .inner-menu li{
+    margin-left: 30px;
+}
+.section-one {
+    background-image: url(/Project-mini2/assets/images/banner-bg.png);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.section-one .container .row .button {
+    text-align: center;
+}
+.section-one .container .row .button .button-one {
+    padding: 10px;
+    border: none;
+    background-color: #FF589E;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.section-one .container .row .button .button-one:hover{
+    background-color: #8261EE;
+}
+.section-two {
+    margin-top: -80px;
+}
+.section-one .container .row .inner-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.section-one .container .row .inner-desc {
+    text-align: center;
+    color: white;
+}
+.section-two .container .row .inner-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+.section-two .container .row .inner-box i {
+    background-color: #8261EE;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+.section-two .container .row .inner-box h5{
+    padding: 10px 0;
+}
+.section-two .container .row .inner-box .inner-desc {
+    color: #777;
+}
