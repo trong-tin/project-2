@@ -1,3 +1,4 @@
+/* Header */
 .header {
     background: none;
     position: fixed;
@@ -31,10 +32,33 @@
     flex-direction: row;
     list-style-type: none;
     margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
-.header .container .row .inner-menu li{
+
+@media screen and (max-width:992px) {
+    .header .container .row .inner-menu {
+        opacity: 0;
+    }
+}
+
+.header .container .row .inner-menu li {
     margin-left: 30px;
+    font-size: 14px;
 }
+
+.header .container .row .inner-menu li:nth-child(1) {
+    color: #FF589E;
+}
+
+.header .container .row .inner-menu li:hover {
+    color: #FF589E;
+}
+
+/*End Header */
+
+
+/* Section-one */
 .section-one {
     background-image: url(https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/banner-bg.png);
     overflow: hidden;
@@ -47,33 +71,44 @@
     background-size: cover;
     height: 100vh;
 }
+
 .section-one .container .row .button {
     text-align: center;
 }
+
 .section-one .container .row .button .button-one {
-    padding: 10px;
+    padding: 10px 20px;
     border: none;
     background-color: #FF589E;
     color: white;
     border-radius: 20px;
     font-size: 12px;
 }
-.section-one .container .row .button .button-one:hover{
+
+.section-one .container .row .button .button-one:hover {
     background-color: #8261EE;
 }
+
 .section-two {
-    margin-top: -80px;
+    margin-top: -150px;
 }
+
 .section-one .container .row .inner-title {
     text-align: center;
     color: white;
     margin-bottom: 40px;
     margin-top: 100px;
 }
+
 .section-one .container .row .inner-desc {
     text-align: center;
     color: white;
 }
+
+/*End Section-one */
+
+
+/* Section-two */
 .section-two .container .row .inner-box {
     display: flex;
     justify-content: center;
@@ -82,6 +117,7 @@
     border-radius: 20px;
     padding: 50px;
 }
+
 .section-two .container .row .inner-box i {
     background-color: #8261EE;
     font-size: 60px;
@@ -89,9 +125,210 @@
     border-radius: 50%;
     color: white;
 }
-.section-two .container .row .inner-box h5{
+
+.section-two .container .row .inner-box h5 {
     padding: 10px 0;
 }
+
 .section-two .container .row .inner-box .inner-desc {
     color: #777;
 }
+
+/* End Section-two */
+
+
+/* Section-three */
+.section-three {
+    padding: 100px;
+}
+
+.section-three .container .inner-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-three .container .content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-three .container .content .inner-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-three .container .inner-content .inner-title {
+    margin-bottom: 30px;
+}
+
+.section-three .container .inner-content .inner-desc {
+    text-align: justify;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* End Section-three */
+
+
+/* Section-four */
+.section-four {
+    margin-bottom: 50px;
+}
+
+.section-four .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-four .container .content .inner-content {
+    padding-left: 25px;
+}
+
+.section-four .container .content .inner-content .inner-title {
+    margin-bottom: 30px;
+}
+
+.section-four .container .content .inner-content .inner-desc {
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-four .container .inner-image {
+    text-align: center;
+}
+
+/* End Section-four */
+
+
+/* Section-five */
+.section-five {
+    margin-top: 100px;
+    background-image: url(../images/work-process-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+.section-five .container {
+    margin-top: 100px;
+}
+
+.section-five .container .inner-content {
+    text-align: center;
+}
+
+.section-five .container .inner-content .inner-title {
+    color: white;
+}
+
+.section-five .container .inner-content .inner-desc {
+    color: white;
+    font-size: 16px;
+    margin: 50px 0;
+}
+
+.section-five .container .inner-box {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 12px 12px 1px 0 #AD7FE1;
+    margin-bottom: 30px;
+}
+
+.section-five .container .inner-box:hover {
+    transform: translate(0, -10px);
+    transition: all 0.3s ease 0s;
+}
+
+.section-five .container .inner-box .inner-icon {
+    font-size: 35px;
+    color: #FF589E;
+}
+
+.section-five .container .inner-box .inner-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-five .container .inner-box .inner-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+}
+
+/* End Section-five */
+
+
+/* Section-six */
+.section-six {
+    padding: 100px 0;
+    background-color: #F2F2F2;
+}
+
+.section-six .container .inner-content {
+    text-align: center;
+}
+
+.section-six .container .inner-content .inner-desc {
+    margin: 40px;
+    color: #777;
+    font-size: 16px;
+}
+
+.section-six .container .inner-box {
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.section-six .container .inner-box i {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #AD7FE1;
+}
+
+.section-six .container .inner-box .inner-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.section-six .container .inner-box .inner-image .inner-author {
+    text-align: left;
+}
+
+.section-six .container .inner-box .inner-image .inner-author .author {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.section-six .container .inner-box .inner-image .inner-author .job {
+    color: #FF589E;
+    font-size: 16px;
+}
+
+.section-six .container .inner-box .inner-image img {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.section-six .container .inner-box .inner-desc {
+    text-align: left;
+    margin-bottom: 30px;
+    color: #777;
+    tra
+}
+
+/* EndSection-six */
