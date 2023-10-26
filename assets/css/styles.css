@@ -239,7 +239,7 @@
     background-color: white;
     border-radius: 25px;
     text-align: center;
-    padding: 20px;
+    padding: 20px 30px;
     box-shadow: 12px 12px 1px 0 #AD7FE1;
     margin-bottom: 30px;
 }
@@ -303,10 +303,20 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .section-six .container .inner-box .inner-image .inner-author {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-six .container .inner-box .inner-image .inner-author:hover {
+    margin-left: 10px;
+    transform: translate(5px, 0);
+    transition: all 0.3s ease 0s;
 }
 
 .section-six .container .inner-box .inner-image .inner-author .author {
@@ -317,6 +327,7 @@
 .section-six .container .inner-box .inner-image .inner-author .job {
     color: #FF589E;
     font-size: 16px;
+    margin-bottom: 0;
 }
 
 .section-six .container .inner-box .inner-image img {
@@ -330,4 +341,83 @@
     color: #777;
     tra
 }
+
 /* End Section-six */
+
+
+/* Section-seven */
+.section-seven {
+    background-color: #F2F2FE;
+    padding: 100px 0;
+}
+
+.section-seven .container .inner-content {
+    text-align: center;
+}
+
+.section-seven .container .inner-content .inner-title {
+    font-weight: 500;
+}
+
+.section-seven .container .inner-content .inner-desc {
+    margin: 30px 0;
+    color: #777;
+    font-weight: 400;
+}
+
+.section-seven .container .inner-box {
+    text-align: center;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.section-seven .container .inner-box .quality {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.section-seven .container .inner-box .sale {
+    background-color: #8261EE;
+    padding: 20px 0 5px 0;
+    border-radius: 20px;
+}
+
+.section-seven .container .row div:nth-child(3) .inner-box .sale{
+    background-color: #FF589E;
+}
+.section-seven .container .inner-box .sale .price{
+    color: white;
+    font-size: 30px;
+}
+.section-seven .container .inner-box .sale .time {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.section-seven .container .inner-box .special-offers h6{
+    color: #777;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 300;
+}
+.section-seven .container .inner-box .special-offers h6:first-child{
+    margin-top: 40px;
+}
+.section-seven .container .inner-box .special-offers h6:last-child{
+    margin-bottom: 40px;
+}
+.section-seven .container .inner-box .inner-button button{
+    background-color: #8261EE;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.section-seven .container .inner-box .inner-button button:hover{
+    background-color: #FF589E;
+}
+/* End Section-seven */
