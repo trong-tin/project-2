@@ -384,31 +384,37 @@
     border-radius: 20px;
 }
 
-.section-seven .container .row div:nth-child(3) .inner-box .sale{
+.section-seven .container .row div:nth-child(3) .inner-box .sale {
     background-color: #FF589E;
 }
-.section-seven .container .inner-box .sale .price{
+
+.section-seven .container .inner-box .sale .price {
     color: white;
     font-size: 30px;
 }
+
 .section-seven .container .inner-box .sale .time {
     color: white;
     font-size: 15px;
     font-weight: 400;
 }
-.section-seven .container .inner-box .special-offers h6{
+
+.section-seven .container .inner-box .special-offers h6 {
     color: #777;
     font-size: 14px;
     margin-top: 15px;
     font-weight: 300;
 }
-.section-seven .container .inner-box .special-offers h6:first-child{
+
+.section-seven .container .inner-box .special-offers h6:first-child {
     margin-top: 40px;
 }
-.section-seven .container .inner-box .special-offers h6:last-child{
+
+.section-seven .container .inner-box .special-offers h6:last-child {
     margin-bottom: 40px;
 }
-.section-seven .container .inner-box .inner-button button{
+
+.section-seven .container .inner-box .inner-button button {
     background-color: #8261EE;
     border: none;
     border-radius: 20px;
@@ -417,7 +423,68 @@
     font-size: 14px;
     font-weight: 300;
 }
-.section-seven .container .inner-box .inner-button button:hover{
+
+.section-seven .container .inner-box .inner-button button:hover {
     background-color: #FF589E;
 }
+
 /* End Section-seven */
+/* Section-eight */
+.section-eight {
+    background-image: url(../images/fun-facts-bg.png);
+    height: 60vh;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.section-eight .container {
+    padding: 0 0;
+    height: 100%;
+}
+.section-eight .container .row{
+    height: 100%;
+}
+.section-eight .container .inner-box {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-eight .container .inner-box strong {
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section-eight .container .inner-box span {
+    color: white;
+    display: block;
+    font-weight: 500;
+    position: relative;
+}
+
+.section-eight .container .inner-box:before {
+    content: "";
+    position: absolute;
+    background: url(../images/circle-dec.png);
+    background-repeat: no-repeat;
+    bottom: 150px;
+    left: 250px;
+    width: 70%;
+    height: 32px;
+}
+
+.section-eight .container .row div:nth-child(4) .inner-box:before {
+    background: none;
+}
+
+.section-eight .container .inner-box .inner-title:hover {
+    transform: translate(0, -15px);
+    transition: all 0.3s ease 0s;
+}
+
+/* Eight Section-eight */
