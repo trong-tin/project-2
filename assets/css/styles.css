@@ -139,7 +139,7 @@
 
 /* Section-three */
 .section-three {
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .section-three .container .inner-image {
