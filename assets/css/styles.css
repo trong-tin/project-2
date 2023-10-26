@@ -442,9 +442,17 @@
     padding: 0 0;
     height: 100%;
 }
-.section-eight .container .row{
+
+.section-eight .container .row {
     height: 100%;
 }
+
+@media screen and (max-width:992px) {
+    .section-eight .container .inner-box:before {
+        opacity: 0;
+    }
+}
+
 .section-eight .container .inner-box {
     height: 100%;
     text-align: center;
